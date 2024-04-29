@@ -63,6 +63,7 @@ mailResponse := mail.GetMails()
 if mailResponse == nil {
     log.Fatal("Error retrieving emails")
 }
+fmt.Println(mailResponse)
 ```
 **Getting Email IDs**
 ---------------------
